@@ -16,11 +16,13 @@ namespace ConsoleApp1
 
             // Print the value of the variable (userName), which will display the input value
             Console.WriteLine("Username is: " + userName);
+
+            Console.WriteLine("Enter your age:");
+            int age = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine("Your age is: " + age);
         }
     }
 }
-<<<<<<< HEAD
-=======
 
 //Line 1: using System means that we can use classes from the System namespace.
 
@@ -30,5 +32,4 @@ namespace ConsoleApp1
 
 //Line 4: The curly braces {} marks the beginning and the end of a block of code.
 
-//Line 5: class is a container for data and methods, which brings functionality to your program. Every line of code that runs in C# must be inside a class. In our example, we named the class Program.
->>>>>>> b2bff85d4d256db37e188b82b943365df54eb083
+//Line 5: class is a container for data and methods, which brings functionality to your program. Every line of code that runs in C# must be inside a class. In our example, we named the class Program
